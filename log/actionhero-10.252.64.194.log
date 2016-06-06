@@ -1,0 +1,925 @@
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:12:43.903Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:12:44.239Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:12:44.257Z"}
+{"level":"notice","message":"pid: 1080","timestamp":"2016-06-06T15:12:45.121Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:12:45.143Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:12:45.174Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:12:45.205Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:12:46.592Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:12:46.608Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:13:14.081Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:13:14.109Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:14:47.496Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:14:47.549Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:14:47.565Z"}
+{"level":"notice","message":"pid: 7368","timestamp":"2016-06-06T15:14:47.696Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:14:47.696Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:14:47.728Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:14:47.750Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:14:48.446Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:14:48.448Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:15:00.488Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:15:00.541Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:15:00.557Z"}
+{"level":"notice","message":"pid: 11964","timestamp":"2016-06-06T15:15:00.673Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:15:00.688Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:15:00.710Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:15:00.710Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:15:01.374Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:15:01.374Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:15:25.775Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:15:25.828Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:15:25.844Z"}
+{"level":"notice","message":"pid: 4720","timestamp":"2016-06-06T15:15:25.959Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:15:25.959Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:15:25.990Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:15:26.006Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:15:26.629Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:15:26.644Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:15:43.528Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:15:43.581Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:15:43.597Z"}
+{"level":"notice","message":"pid: 12384","timestamp":"2016-06-06T15:15:43.713Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:15:43.713Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:15:43.760Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:15:43.782Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:15:44.483Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:15:44.483Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:15:56.944Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:15:56.991Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:15:57.007Z"}
+{"level":"notice","message":"pid: 1988","timestamp":"2016-06-06T15:15:57.129Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:15:57.129Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:15:57.144Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:15:57.144Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:15:57.808Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:15:57.808Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:15:59.168Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:16:45.068Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:31:50.533Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:31:50.586Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:31:50.602Z"}
+{"level":"notice","message":"pid: 4060","timestamp":"2016-06-06T15:31:50.718Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:31:50.718Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:31:50.753Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:31:50.756Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:31:51.435Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:31:51.435Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:32:22.061Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:32:22.114Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:32:22.130Z"}
+{"level":"notice","message":"pid: 6068","timestamp":"2016-06-06T15:32:22.246Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:32:22.246Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:32:22.281Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:32:22.283Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:32:22.947Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:32:22.947Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:32:41.908Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:32:41.955Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:32:41.977Z"}
+{"level":"notice","message":"pid: 12788","timestamp":"2016-06-06T15:32:42.093Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:32:42.093Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:32:42.124Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:32:42.140Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:32:42.811Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:32:42.811Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:33:30.405Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:33:30.452Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:33:30.467Z"}
+{"level":"notice","message":"pid: 13200","timestamp":"2016-06-06T15:33:30.589Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:33:30.590Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:33:30.621Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:33:30.621Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:33:31.253Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:33:31.253Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:33:47.688Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:33:47.741Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:33:47.741Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:33:47.873Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:33:47.873Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:33:47.904Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:33:47.904Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:33:48.575Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:33:48.576Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:33:51.991Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:34:40.455Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:35:05.196Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:35:19.257Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:35:19.280Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:35:19.351Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:35:19.359Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:35:19.375Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:35:19.379Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:35:19.457Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:35:19.476Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:35:19.479Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:35:19.495Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:35:19.495Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:35:19.526Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:35:19.526Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:35:20.112Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:35:20.112Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:35:20.128Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:35:21.068Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:35:38.579Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:35:38.579Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:35:38.583Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:35:38.587Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:35:38.591Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:35:38.599Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:35:38.671Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:35:38.671Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:35:38.675Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:35:38.695Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:35:38.695Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:35:38.703Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:35:38.707Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:35:39.160Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:35:39.164Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:35:39.164Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:35:41.756Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:35:55.768Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:35:55.768Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:35:55.768Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:35:55.768Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:35:55.784Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:35:55.784Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:35:55.868Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:35:55.884Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:35:55.884Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:35:55.884Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:35:55.884Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:35:55.902Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:35:55.903Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:35:56.339Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:35:56.339Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:35:56.339Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:35:56.339Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T15:37:34.308Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:39:08.536Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:39:08.536Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:39:08.544Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:39:08.548Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:39:08.556Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:39:08.568Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:39:08.679Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:39:08.679Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:39:08.698Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:39:08.717Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:39:08.717Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:39:08.748Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:39:08.752Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:39:09.462Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:39:09.462Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:39:09.462Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:39:13.721Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:39:13.721Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:39:13.721Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:39:13.721Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:39:13.736Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:39:13.736Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:39:13.846Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:39:13.846Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:39:13.850Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:39:13.870Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:39:13.870Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:39:13.882Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:39:13.886Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:39:14.601Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:39:14.603Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:39:14.603Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:39:16.870Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:39:16.870Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:39:16.870Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:39:16.870Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:39:16.885Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:39:16.885Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:39:16.970Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:39:16.970Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:39:16.970Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:39:16.985Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:39:16.985Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:39:17.004Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:39:17.006Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:39:17.470Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:39:17.470Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:39:17.470Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:39:22.009Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:39:22.010Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:39:22.011Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:39:22.011Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:39:22.011Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:39:22.011Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:39:22.103Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:39:22.104Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:39:22.109Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:39:22.112Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:39:22.112Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:39:22.132Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:39:22.132Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:39:22.636Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:39:22.640Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:39:22.640Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:40:49.399Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:40:49.399Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:40:49.399Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:40:49.407Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:40:49.411Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:40:49.415Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:40:49.495Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:40:49.495Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:40:49.495Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:40:49.511Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:40:49.511Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:40:49.534Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:40:49.538Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:40:50.195Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:40:50.195Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:40:50.195Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:41:06.590Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:41:06.594Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:41:06.598Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:41:06.602Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:41:06.606Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:41:06.614Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:41:06.706Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:41:06.706Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:41:06.722Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:41:06.737Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:41:06.737Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:41:06.755Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:41:06.757Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:41:07.222Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:41:07.222Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:41:07.222Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:41:09.762Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:41:09.764Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:41:09.769Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:41:09.770Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:41:09.784Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:41:09.812Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:41:09.886Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:41:09.890Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:41:09.894Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:41:09.902Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:41:09.902Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:41:09.914Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:41:09.914Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:41:10.502Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:41:10.502Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:41:10.502Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:41:40.017Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:41:40.017Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:41:40.017Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:41:40.017Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:41:40.017Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:41:40.032Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:41:40.099Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:41:40.099Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:41:40.099Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:41:40.099Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:41:40.099Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:41:40.134Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:41:40.134Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:41:40.623Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:41:40.623Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:41:40.623Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:41:51.137Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:41:51.137Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:41:51.137Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:41:51.137Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:41:51.137Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:41:51.152Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:41:51.229Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:41:51.233Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:41:51.237Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:41:51.249Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:41:51.249Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:41:51.257Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:41:51.257Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:41:51.743Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:41:51.747Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:41:51.747Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:43:01.508Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:43:01.508Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:43:01.508Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:43:01.508Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:43:01.524Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:43:01.524Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:43:01.632Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:43:01.632Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:43:01.632Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:43:01.648Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:43:01.648Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:43:01.667Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:43:01.669Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:43:02.201Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:43:02.201Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:43:02.201Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:43:46.791Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:43:46.793Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:43:46.799Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:43:46.799Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:43:46.803Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:43:46.807Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:43:46.894Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:43:46.896Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:43:46.899Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:43:46.899Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:43:46.916Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:43:46.928Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:43:46.932Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:43:47.519Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:43:47.523Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:43:47.523Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T15:43:56.940Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T15:43:56.944Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T15:43:56.948Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T15:43:56.952Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T15:43:56.956Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T15:43:56.956Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T15:43:57.003Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T15:43:57.003Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T15:43:57.003Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T15:43:57.018Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T15:43:57.018Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T15:43:57.035Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T15:43:57.035Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T15:43:57.524Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T15:43:57.525Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T15:43:57.526Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T16:01:04.632Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:01:04.636Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:01:04.647Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:01:04.653Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:01:04.660Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:01:04.672Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:01:04.788Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:01:04.788Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:01:04.800Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:01:04.816Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:01:04.816Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:01:04.828Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:01:04.832Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:01:05.792Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:01:05.796Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:01:05.800Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T16:01:23.895Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:01:23.895Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:01:23.895Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:01:23.895Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:01:23.895Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:01:23.911Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:01:24.071Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:01:24.075Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:01:24.095Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:01:24.142Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:01:24.142Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:01:24.174Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:01:24.174Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:01:24.736Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:01:24.736Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:01:24.740Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T16:01:27.153Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:01:27.157Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:01:27.161Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:01:27.161Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:01:27.169Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:01:27.177Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:01:27.249Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:01:27.249Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:01:27.253Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:01:27.273Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:01:27.273Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:01:27.281Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:01:27.281Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:01:27.933Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:01:27.937Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:01:27.937Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T16:01:30.302Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:01:30.303Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:01:30.306Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:01:30.308Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:01:30.313Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:01:30.322Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:01:30.406Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:01:30.408Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:01:30.412Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:01:30.430Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:01:30.430Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:01:30.461Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:01:30.461Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:01:30.930Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:01:30.930Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:01:30.930Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T16:01:59.532Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:01:59.533Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:01:59.534Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:01:59.536Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:01:59.536Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:01:59.536Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:01:59.598Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:01:59.598Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:01:59.598Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:01:59.614Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:01:59.614Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:01:59.632Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:01:59.636Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:02:00.131Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:02:00.132Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:02:00.132Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T16:02:05.651Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:02:05.651Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:02:05.651Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:02:05.651Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:02:05.651Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:02:05.669Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:02:05.734Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:02:05.734Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:02:05.734Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:02:05.750Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:02:05.750Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:02:05.768Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:02:05.771Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:02:06.251Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:02:06.251Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:02:06.251Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:02:35.889Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:02:35.969Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:02:35.969Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:02:35.973Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:02:35.983Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:02:35.983Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:02:35.989Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:02:35.989Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:02:36.390Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:02:36.390Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:02:36.406Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T16:03:28.167Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T16:03:28.168Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T16:03:28.168Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T16:03:28.168Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T16:03:28.168Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T16:03:28.168Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T16:03:28.262Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T16:03:28.264Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T16:03:28.269Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T16:03:28.281Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T16:03:28.281Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T16:03:28.289Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T16:03:28.289Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T16:03:28.781Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T16:03:28.781Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T16:03:28.781Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T18:05:42.583Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T18:05:42.583Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T18:05:42.603Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T18:05:42.607Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T18:05:42.619Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T18:05:42.627Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T18:05:42.727Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T18:05:42.727Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T18:05:42.743Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T18:05:42.767Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T18:05:42.767Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T18:05:42.799Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T18:05:42.803Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T18:05:43.514Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T18:05:43.514Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T18:05:43.514Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T18:05:53.792Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T18:05:53.793Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T18:05:53.795Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T18:05:53.796Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T18:05:53.797Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T18:05:53.801Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T18:05:53.901Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T18:05:53.905Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T18:05:53.909Z"}
+{"level":"notice","message":"pid: 9020","timestamp":"2016-06-06T18:05:53.937Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T18:05:53.941Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T18:05:53.949Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T18:05:53.953Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T18:05:54.562Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T18:05:54.562Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T18:05:54.566Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T18:07:22.283Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T18:07:22.284Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T18:07:22.284Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T18:07:22.284Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T18:07:22.284Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:16:12.168Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:16:12.384Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:16:12.400Z"}
+{"level":"notice","message":"pid: 4076","timestamp":"2016-06-06T20:16:13.053Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:16:13.053Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:16:13.069Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:16:13.069Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:16:13.986Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:16:13.986Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:16:28.187Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:16:28.240Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:16:28.256Z"}
+{"level":"notice","message":"pid: 3984","timestamp":"2016-06-06T20:16:28.372Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:16:28.372Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:16:28.423Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:16:28.425Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:16:29.058Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:16:29.058Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:16:48.926Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:16:48.979Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:16:48.995Z"}
+{"level":"notice","message":"pid: 9788","timestamp":"2016-06-06T20:16:49.111Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:16:49.111Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:16:49.142Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:16:49.142Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:16:49.949Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:16:49.951Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:17:05.081Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:17:05.128Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:17:05.155Z"}
+{"level":"notice","message":"pid: 10356","timestamp":"2016-06-06T20:17:05.274Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:17:05.274Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:17:05.305Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:17:05.305Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:17:05.996Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:17:05.997Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:17:06.446Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:19:27.002Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:19:27.055Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:19:27.071Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:19:27.186Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:19:27.186Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:19:27.238Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:19:27.240Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:19:27.857Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:19:27.857Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:19:30.643Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:20:08.321Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:20:08.321Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:20:08.337Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:20:08.337Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:20:08.337Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:20:08.337Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:20:08.375Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:20:08.375Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:20:08.390Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:20:08.406Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:20:08.406Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:20:08.437Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:20:08.437Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:20:08.965Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:20:08.966Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:20:08.967Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:20:10.559Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:20:27.463Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:20:27.466Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:20:27.471Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:20:27.473Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:20:27.479Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:20:27.482Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:20:27.569Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:20:27.571Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:20:27.575Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:20:27.591Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:20:27.592Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:20:27.598Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:20:27.599Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:20:28.008Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:20:28.008Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:20:28.008Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:20:29.477Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:21:24.761Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:21:24.768Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:21:24.774Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:21:24.775Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:21:24.777Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:21:24.781Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:21:24.854Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:21:24.854Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:21:24.865Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:21:24.878Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:21:24.879Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:21:24.883Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:21:24.885Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:21:25.437Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:21:25.438Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:21:25.439Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:21:26.670Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:22:24.021Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:22:24.022Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:22:24.025Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:22:24.027Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:22:24.030Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:22:24.032Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:22:24.095Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:22:24.095Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:22:24.095Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:22:24.128Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:22:24.129Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:22:24.132Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:22:24.132Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:22:24.643Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:22:24.643Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:22:24.658Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:22:26.066Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:22:38.152Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:22:38.154Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:22:38.164Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:22:38.166Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:22:38.170Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:22:38.178Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:22:38.224Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:22:38.224Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:22:38.224Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:22:38.240Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:22:38.240Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:22:38.290Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:22:38.292Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:22:38.756Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:22:38.756Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:22:38.756Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-06T20:23:08.312Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:23:08.314Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:23:08.315Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:23:08.315Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:23:08.315Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:23:08.315Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:23:08.363Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:23:08.365Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:23:08.370Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:23:08.372Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:23:08.372Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:23:08.404Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:23:08.407Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:23:08.831Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:23:08.831Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:23:08.831Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:23:18.622Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:24:20.903Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:24:42.650Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:24:42.703Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:24:42.703Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:24:42.703Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:24:42.724Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:24:42.724Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:24:42.755Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:24:42.755Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:24:43.319Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:24:43.319Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:24:43.319Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:24:43.319Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:24:58.808Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:24:58.809Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:24:58.815Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:24:58.817Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:24:58.817Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:24:58.817Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:24:58.893Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:24:58.895Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:24:58.899Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:24:58.913Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:24:58.913Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:24:58.947Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:24:58.947Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:24:59.415Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:24:59.415Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:24:59.415Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:25:36.983Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:25:36.985Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:25:37.019Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:25:37.020Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:25:37.022Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:25:37.027Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:25:37.077Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:25:37.077Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:25:37.095Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:25:37.110Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:25:37.110Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:25:37.142Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:25:37.142Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:25:37.824Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:25:37.825Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:25:37.825Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:25:40.446Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:26:18.255Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:26:18.256Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:26:18.257Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:26:18.258Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:26:18.261Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:26:18.265Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:26:18.333Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:26:18.336Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:26:18.341Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:26:18.370Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:26:18.371Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:26:18.380Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:26:18.383Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:26:18.915Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:26:18.916Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:26:18.916Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:26:38.504Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:27:12.857Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:28:06.758Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:28:06.758Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:28:06.758Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:28:06.758Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:28:06.758Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:28:06.774Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:28:06.827Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:28:06.828Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:28:06.831Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:28:06.838Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:28:06.839Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:28:06.845Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:28:06.846Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:28:07.340Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:28:07.342Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:28:07.343Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:28:10.975Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:28:25.896Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:28:25.897Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:28:25.898Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:28:25.899Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:28:25.902Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:28:25.904Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:28:25.951Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:28:25.951Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:28:25.958Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:28:25.967Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:28:25.968Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:28:25.972Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:28:25.975Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:28:26.553Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:28:26.554Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:28:26.555Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:28:28.507Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:28:43.055Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:28:43.055Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:28:43.055Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:28:43.055Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:28:43.055Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:28:43.071Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:28:43.101Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:28:43.101Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:28:43.117Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:28:43.127Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:28:43.128Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:28:43.133Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:28:43.135Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:28:43.647Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:28:43.647Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:28:43.647Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:28:58.173Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:28:58.174Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:28:58.175Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:28:58.176Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:28:58.179Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:28:58.183Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:28:58.222Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:28:58.222Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:28:58.222Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:28:58.238Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:28:58.238Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:28:58.255Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:28:58.257Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:28:58.744Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:28:58.745Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:28:58.745Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:29:01.243Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:29:01.245Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:29:01.245Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:29:01.246Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:29:01.248Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:29:01.248Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:29:01.264Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:29:01.264Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:29:01.280Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:29:01.280Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:29:01.280Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:29:01.312Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:29:01.314Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:29:01.842Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:29:01.842Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:29:01.842Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:29:03.533Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:29:19.610Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:29:31.318Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:29:54.302Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:46:26.815Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:46:31.550Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:46:37.956Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:46:59.576Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:46:59.577Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:46:59.577Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:46:59.577Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:46:59.593Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:46:59.593Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:46:59.693Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:46:59.693Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:46:59.708Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:46:59.724Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:46:59.724Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:46:59.755Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:46:59.755Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:47:00.355Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:47:00.355Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:47:00.355Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:47:04.727Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:47:04.727Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:47:04.727Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:47:04.727Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:47:04.743Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:47:04.743Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:47:04.796Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:47:04.796Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:47:04.796Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:47:04.814Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:47:04.814Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:47:04.845Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:47:04.845Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:47:05.361Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:47:05.361Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:47:05.361Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:47:05.496Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:47:07.783Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-06T20:47:20.853Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:47:20.853Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:47:20.853Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:47:20.853Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:47:20.869Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:47:20.869Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:47:20.922Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:47:20.922Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:47:20.940Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:47:20.965Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:47:20.966Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:47:20.972Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:47:20.974Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:47:21.454Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:47:21.454Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:47:21.454Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-06T20:47:22.173Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Player.js) ***","timestamp":"2016-06-06T20:50:09.567Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:50:09.567Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:50:09.567Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:50:09.567Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:50:09.582Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:50:09.582Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:50:09.666Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:50:09.666Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:50:09.666Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:50:09.681Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:50:09.681Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:50:09.701Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:50:09.703Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:50:10.521Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:50:10.521Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:50:10.521Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Player.js) ***","timestamp":"2016-06-06T20:50:14.703Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:50:14.703Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:50:14.703Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:50:14.703Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:50:14.703Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:50:14.721Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:50:14.768Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:50:14.768Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:50:14.784Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:50:14.799Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:50:14.800Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:50:14.804Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:50:14.806Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:50:15.321Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:50:15.322Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:50:15.322Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Player.js) ***","timestamp":"2016-06-06T20:50:24.811Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:50:24.812Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:50:24.814Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:50:24.816Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:50:24.820Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-06T20:50:24.823Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-06T20:50:24.848Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-06T20:50:24.848Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-06T20:50:24.848Z"}
+{"level":"notice","message":"pid: 9384","timestamp":"2016-06-06T20:50:24.864Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-06T20:50:24.864Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-06T20:50:24.895Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-06T20:50:24.895Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-06T20:50:25.350Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-06T20:50:25.350Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-06T20:50:25.350Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\OneDrive\\Programs\\Actionhero\\WordLink\\initializers\\Player.js) ***","timestamp":"2016-06-06T20:52:27.221Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-06T20:52:27.223Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:52:27.226Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:52:27.227Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:52:27.232Z"}
