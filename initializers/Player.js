@@ -6,7 +6,7 @@ module.exports = {
   stopPriority: 1000,
   initialize: function (api, next) {
     api.Player = {
-      generateGuid = function () {
+      generateGuid: function () {
         function s4() {
           return Math.floor((1 + Math.random()) * 0x10000)
             .toString(16)
@@ -19,11 +19,11 @@ module.exports = {
         var newPlayer = {};
         newPlayer.name = name;
         newPlayer.id = this.generateGuid();
-        
+        newPlayer.score = 0;
         newPlayer.authenticate = function(pass) {
           return pass == password;
         }
-        return newPlayer
+        return newPlayer;
       }
     };
 

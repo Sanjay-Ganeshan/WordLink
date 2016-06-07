@@ -14,8 +14,15 @@ module.exports = {
         newGame.currentWordBack = 0;
         newGame.currentLetter = 0;
         newGame.currentPhrase = generator();
+        newGame.scorePerWord = 100;
+        
+
         newGame.getCurrentPlayer = function () {
-          return this.players
+          return this.players[this.currentTurn];
+        }
+
+        newGame.getCurrentPlayerName = function() {
+          return this.getCurrentPlayer().name;
         }
         newGame.fixTurn = function () {
           if (this.players.length == 0) {
@@ -43,6 +50,7 @@ module.exports = {
           this.currentLetter += 1;
         }
         newGame.addPlayer = function (player) {
+          player.score = 0;
           this.players.push(player);
         }
         newGame.removePlayer = function (playerId) {
@@ -61,6 +69,7 @@ module.exports = {
           if (this.currentPhrase.getWord(this.currentWordFront + 1) == guess) {
             //The guess is right
             //Go to the next word
+            this.getCurrentPlayer().score += this.scorePerWord;
             this.advanceWordFront();
           }
           else {
@@ -73,6 +82,7 @@ module.exports = {
           if (this.currentPhrase.getWordFromBack(this.currentWordBack + 1) == guess) {
             //The guess is right
             //Go to the next word
+            this.getCurrentPlayer().score += this.scorePerWord;
             this.advanceWordBack();
             
           }
