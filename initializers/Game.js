@@ -6,14 +6,17 @@ module.exports = {
   stopPriority: 1000,
   initialize: function (api, next) {
     api.Game = {
-      constructGame: function (generator) {
+      constructGame: function () {
         var newGame = {};
+        var generator = api.PhraseGenerator;
         newGame.players = [];
         newGame.currentTurn = 0;
         newGame.currentWordFront = 0;
         newGame.currentWordBack = 0;
         newGame.currentLetter = 0;
-        newGame.currentPhrase = generator();
+        newGame.numWordsInChain = 3;
+        newGame.numRetriesPerGeneration = 30;
+        newGame.currentPhrase = generator(newGame.numWordsInChain,newGame.numRetriesPerGeneration);
         newGame.scorePerWord = 100;
         
 

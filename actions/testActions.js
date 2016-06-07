@@ -28,7 +28,9 @@ exports.action = {
       return testChain;
     }
     var testGame = api.Game.constructGame(gen);
-    //data.response.testGame = testGame;
+    
+    data.response.testGame = testGame;
+
     var sanjay = api.Player.constructPlayer("Sanjay","Ganeshan");
     var subbu = api.Player.constructPlayer("Harihar","Subbu");
     

@@ -923,3 +923,1051 @@
 {"level":"notice","message":"Stopping server: web","timestamp":"2016-06-06T20:52:27.226Z"}
 {"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-06T20:52:27.227Z"}
 {"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-06T20:52:27.232Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:20:56.847Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:20:56.926Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:20:56.940Z"}
+{"level":"notice","message":"pid: 1748","timestamp":"2016-06-07T14:20:57.081Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:20:57.083Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:20:57.093Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:20:57.097Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:20:57.763Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:20:57.779Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:06.089Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:06.089Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:17.209Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:43.622Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:43.638Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:21:46.368Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:22:23.174Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:24:54.157Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:24:54.157Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:24:54.173Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:24:54.173Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:24:54.188Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:32:00.512Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:32:00.844Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:32:00.859Z"}
+{"level":"notice","message":"pid: 10696","timestamp":"2016-06-07T14:32:01.576Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:32:01.576Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:32:01.598Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:32:01.598Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:32:02.500Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:32:02.500Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T14:32:05.203Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T14:36:31.755Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:36:31.755Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:36:31.770Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:36:31.772Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:36:31.772Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:36:31.787Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:36:31.959Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:36:31.959Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:36:31.959Z"}
+{"level":"notice","message":"pid: 10696","timestamp":"2016-06-07T14:36:31.990Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:36:31.990Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:36:32.011Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:36:32.015Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:36:32.587Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:45:13.249Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:45:13.295Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:45:13.311Z"}
+{"level":"notice","message":"pid: 12064","timestamp":"2016-06-07T14:45:13.427Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:45:13.427Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:45:13.448Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:45:13.448Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:45:14.066Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:45:23.804Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:45:23.851Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:45:23.873Z"}
+{"level":"notice","message":"pid: 1864","timestamp":"2016-06-07T14:45:23.989Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:45:23.989Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:45:24.020Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:45:24.020Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:45:24.694Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:45:24.694Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:45:27.726Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:45:27.726Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:45:27.742Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:45:27.742Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:45:27.758Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:45:37.841Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:45:37.887Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:45:37.903Z"}
+{"level":"notice","message":"pid: 11304","timestamp":"2016-06-07T14:45:38.041Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:45:38.041Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:45:38.072Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:45:38.072Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:45:38.722Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:45:38.725Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:45:42.453Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:45:42.453Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:45:42.468Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:45:42.468Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:45:42.484Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:46:00.101Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:46:00.148Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:46:00.164Z"}
+{"level":"notice","message":"pid: 13212","timestamp":"2016-06-07T14:46:00.285Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:46:00.285Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:46:00.332Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:46:00.348Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:46:01.050Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:46:01.050Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T14:46:26.397Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:46:26.397Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:46:26.397Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:46:26.416Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:46:26.419Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:46:26.419Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:46:26.515Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:46:26.518Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:46:26.519Z"}
+{"level":"notice","message":"pid: 13212","timestamp":"2016-06-07T14:46:26.535Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:46:26.535Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:46:26.566Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:46:26.566Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:46:27.095Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:46:27.099Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T14:46:27.099Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:46:32.439Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:46:32.441Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:46:32.441Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:46:32.441Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:46:32.456Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:46:33.541Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:46:33.588Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:46:33.603Z"}
+{"level":"notice","message":"pid: 10060","timestamp":"2016-06-07T14:46:33.719Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:46:33.719Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:46:33.741Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:46:33.741Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:46:34.388Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:46:34.388Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T14:46:39.742Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:46:39.746Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:46:39.746Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:46:39.746Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:46:39.762Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:46:39.762Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:46:39.899Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:46:39.914Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:46:39.914Z"}
+{"level":"notice","message":"pid: 10060","timestamp":"2016-06-07T14:46:39.952Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:46:39.952Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:46:39.984Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:46:39.984Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:46:40.418Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:46:40.418Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T14:46:40.418Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:49:05.234Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:49:05.302Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:49:05.318Z"}
+{"level":"notice","message":"pid: 11068","timestamp":"2016-06-07T14:49:05.456Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:49:05.456Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:49:05.487Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:49:05.487Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:49:06.204Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:49:06.204Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T14:50:42.649Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T14:50:42.649Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T14:50:42.653Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T14:50:42.653Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T14:50:42.661Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T14:50:42.669Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T14:50:42.735Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T14:50:42.739Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T14:50:42.747Z"}
+{"level":"notice","message":"pid: 11068","timestamp":"2016-06-07T14:50:42.765Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T14:50:42.765Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T14:50:42.796Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T14:50:42.796Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T14:50:43.765Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T14:50:43.769Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T14:50:43.773Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:43:37.215Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:43:37.269Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:43:37.284Z"}
+{"level":"notice","message":"pid: 4964","timestamp":"2016-06-07T18:43:37.400Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:43:37.400Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:43:37.431Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:43:37.431Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:43:38.102Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:43:38.102Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:43:57.732Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:43:57.779Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:43:57.801Z"}
+{"level":"notice","message":"pid: 9944","timestamp":"2016-06-07T18:43:57.917Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:43:57.932Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:43:57.963Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:43:57.963Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:43:58.633Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:43:58.633Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:44:18.681Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:44:18.727Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:44:18.743Z"}
+{"level":"notice","message":"pid: 9864","timestamp":"2016-06-07T18:44:18.865Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:44:18.865Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:44:18.897Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:44:18.912Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:44:19.561Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:44:19.564Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:44:29.752Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:44:29.805Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:44:29.821Z"}
+{"level":"notice","message":"pid: 7204","timestamp":"2016-06-07T18:44:29.953Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:44:29.953Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:44:29.974Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:44:29.974Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:44:30.622Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:44:30.622Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:44:45.318Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:44:45.381Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:44:45.399Z"}
+{"level":"notice","message":"pid: 5636","timestamp":"2016-06-07T18:44:45.518Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:44:45.518Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:44:45.549Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:44:45.549Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:44:46.203Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:44:46.203Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:45:45.846Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:45:45.899Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:45:45.899Z"}
+{"level":"notice","message":"pid: 11988","timestamp":"2016-06-07T18:45:46.031Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:45:46.031Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:45:46.062Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:45:46.062Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:45:46.717Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:45:46.717Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:47:45.053Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:47:45.100Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:47:45.122Z"}
+{"level":"notice","message":"pid: 11596","timestamp":"2016-06-07T18:47:45.238Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:47:45.238Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:47:45.285Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:47:45.285Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:47:45.939Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:47:45.939Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:48:22.747Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:48:22.811Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:48:22.816Z"}
+{"level":"notice","message":"pid: 10752","timestamp":"2016-06-07T18:48:22.932Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:48:22.947Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:48:22.979Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:48:22.994Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:48:23.664Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:48:23.679Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:48:35.475Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:48:35.538Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:48:35.555Z"}
+{"level":"notice","message":"pid: 12584","timestamp":"2016-06-07T18:48:35.676Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:48:35.676Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:48:35.723Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:48:35.738Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:48:50.821Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:48:50.884Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:48:50.890Z"}
+{"level":"notice","message":"pid: 8412","timestamp":"2016-06-07T18:48:51.005Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:48:51.021Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:48:51.052Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:48:51.068Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:48:51.707Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:48:51.707Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:49:22.163Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:49:22.209Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:49:22.225Z"}
+{"level":"notice","message":"pid: 6220","timestamp":"2016-06-07T18:49:22.359Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:49:22.360Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:49:22.394Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:49:22.394Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:49:23.059Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:49:23.061Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:49:53.251Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:49:53.297Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:49:53.313Z"}
+{"level":"notice","message":"pid: 2440","timestamp":"2016-06-07T18:49:53.436Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:49:53.436Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:49:53.482Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:49:53.482Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:49:54.137Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:49:54.137Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:50:20.904Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:50:20.951Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:50:20.967Z"}
+{"level":"notice","message":"pid: 12228","timestamp":"2016-06-07T18:50:21.104Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:50:21.104Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:50:21.136Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:50:21.136Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:50:21.806Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:50:21.806Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:50:46.156Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:50:46.225Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:50:46.240Z"}
+{"level":"notice","message":"pid: 8348","timestamp":"2016-06-07T18:50:46.356Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:50:46.356Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:50:46.377Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:50:46.377Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:50:47.025Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:50:47.025Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:50:55.962Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:50:56.015Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:50:56.031Z"}
+{"level":"notice","message":"pid: 4684","timestamp":"2016-06-07T18:50:56.162Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:50:56.162Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:50:56.197Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:50:56.200Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:50:56.833Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:50:56.848Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:52:55.388Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:52:55.451Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:52:55.451Z"}
+{"level":"notice","message":"pid: 10940","timestamp":"2016-06-07T18:52:55.588Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:52:55.588Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:52:55.620Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:52:55.620Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:52:56.267Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:52:56.267Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:53:58.532Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:53:58.585Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:53:58.601Z"}
+{"level":"notice","message":"pid: 1200","timestamp":"2016-06-07T18:53:58.717Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:53:58.717Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:53:58.748Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:53:58.748Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:53:59.403Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:53:59.403Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:54:15.815Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:54:15.878Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:54:15.893Z"}
+{"level":"notice","message":"pid: 8692","timestamp":"2016-06-07T18:54:16.015Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:54:16.015Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:54:16.046Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:54:16.046Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:54:16.732Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:54:16.748Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:54:56.294Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:54:56.341Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:54:56.363Z"}
+{"level":"notice","message":"pid: 7952","timestamp":"2016-06-07T18:54:56.479Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:54:56.495Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:54:56.526Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:54:56.526Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:54:57.243Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:54:57.243Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:55:41.826Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:55:41.879Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:55:41.895Z"}
+{"level":"notice","message":"pid: 5576","timestamp":"2016-06-07T18:55:42.026Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:55:42.026Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:55:42.042Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:55:42.042Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:55:42.696Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:55:42.696Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:57:03.837Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:57:03.891Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:57:03.906Z"}
+{"level":"notice","message":"pid: 2644","timestamp":"2016-06-07T18:57:04.038Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:57:04.038Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:57:04.059Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:57:04.059Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:57:04.760Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:57:04.760Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:57:30.428Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:57:30.513Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:57:30.513Z"}
+{"level":"notice","message":"pid: 12456","timestamp":"2016-06-07T18:57:30.660Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:57:30.660Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:57:30.691Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:57:30.691Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:57:31.377Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:57:31.377Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T18:58:25.295Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T18:58:25.348Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T18:58:25.364Z"}
+{"level":"notice","message":"pid: 11212","timestamp":"2016-06-07T18:58:25.496Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T18:58:25.496Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T18:58:25.527Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T18:58:25.527Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T18:58:26.165Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T18:58:26.165Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:00:08.247Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:00:08.293Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:00:08.314Z"}
+{"level":"notice","message":"pid: 12276","timestamp":"2016-06-07T19:00:08.431Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:00:08.431Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:00:08.478Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:00:08.494Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:00:09.163Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:00:09.163Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:01:35.043Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:01:35.096Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:01:35.112Z"}
+{"level":"notice","message":"pid: 12936","timestamp":"2016-06-07T19:01:35.228Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:01:35.243Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:01:35.278Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:01:35.281Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:01:35.913Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:01:35.913Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":22,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:01:37.697Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:02:55.836Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:03:27.506Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:03:27.507Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:03:27.509Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:03:27.510Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:03:27.514Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:03:27.519Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:03:27.580Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:03:27.580Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:03:27.595Z"}
+{"level":"notice","message":"pid: 12936","timestamp":"2016-06-07T19:03:27.625Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:03:27.626Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:03:27.636Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:03:27.643Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:03:28.464Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:03:28.470Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:03:28.470Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:03:40.645Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:03:40.645Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:03:40.645Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:03:40.645Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:03:40.660Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:03:40.660Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:03:40.729Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:03:40.729Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:03:40.745Z"}
+{"level":"notice","message":"pid: 12936","timestamp":"2016-06-07T19:03:40.761Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:03:40.761Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:03:40.792Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:03:40.792Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:03:41.246Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:03:41.261Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:03:41.261Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:03:43.776Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:03:43.776Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:03:43.776Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:03:43.776Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:03:43.791Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:03:43.791Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:03:43.876Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:03:43.892Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:03:43.892Z"}
+{"level":"notice","message":"pid: 12936","timestamp":"2016-06-07T19:03:43.935Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:03:43.936Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:03:43.940Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:03:43.943Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:03:44.476Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:03:44.476Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:03:44.476Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:03:44.978Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:04:18.094Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:04:18.100Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:04:18.102Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:04:18.102Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:04:18.108Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:04:18.114Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:04:18.154Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:04:18.154Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:04:18.169Z"}
+{"level":"notice","message":"pid: 12936","timestamp":"2016-06-07T19:04:18.198Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:04:18.198Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:04:18.204Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:04:18.206Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:04:18.635Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:04:18.635Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:04:18.635Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:04:22.307Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:04:33.230Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:04:33.231Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:04:33.231Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:04:33.231Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:04:33.231Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:04:33.231Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:07:32.034Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:07:32.087Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:07:32.087Z"}
+{"level":"notice","message":"pid: 9096","timestamp":"2016-06-07T19:07:32.219Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:07:32.219Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:07:32.250Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:07:32.250Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:07:33.005Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:07:33.005Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:07:48.340Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:07:48.402Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:07:48.402Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:07:48.540Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:07:48.540Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:07:48.555Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:07:48.571Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:07:49.393Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:07:49.393Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:07:49.974Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:08:25.569Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:08:25.570Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:08:25.573Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:08:25.578Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:08:25.585Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:08:25.592Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:08:25.625Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:08:25.640Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:08:25.640Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:08:25.656Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:08:25.656Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:08:25.688Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:08:25.688Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:08:26.123Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:08:26.123Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:08:26.123Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:08:36.707Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:08:36.708Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:08:36.718Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:08:36.722Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:08:36.727Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:08:36.737Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:08:36.816Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:08:36.832Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:08:36.832Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:08:36.847Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:08:36.847Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:08:36.882Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:08:36.888Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:08:37.478Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:08:37.478Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:08:37.478Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:08:41.866Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:08:41.866Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:08:41.866Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:08:41.866Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:08:41.881Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:08:41.881Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:08:41.935Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:08:41.935Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:08:41.935Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:08:41.951Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:08:41.951Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:08:41.969Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:08:41.971Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:08:42.420Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:08:42.436Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:08:42.436Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:08:43.989Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:09:09.052Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:09:09.053Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:09:09.054Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:09:09.054Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:09:09.060Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:09:09.063Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:09:09.112Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:09:09.114Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:09:09.118Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:09:09.127Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:09:09.129Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:09:09.134Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:09:09.136Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:09:09.525Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:09:09.525Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:09:09.525Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:09:31.204Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:09:31.205Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:09:31.206Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:09:31.208Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:09:31.213Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:09:31.216Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:09:31.256Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:09:31.256Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:09:31.256Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:09:31.272Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:09:31.272Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:09:31.290Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:09:31.290Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:09:31.820Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:09:31.836Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:09:31.836Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:09:45.314Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:09:45.316Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:09:45.317Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:09:45.318Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:09:45.322Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:09:45.324Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:09:45.366Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:09:45.366Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:09:45.370Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:09:45.378Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:09:45.379Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:09:45.386Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:09:45.388Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:09:45.866Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:09:45.869Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:09:45.869Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:09:58.413Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:09:58.414Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:09:58.416Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:09:58.419Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:09:58.422Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:09:58.434Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:09:58.476Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:09:58.477Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:09:58.480Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:09:58.486Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:09:58.487Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:09:58.492Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:09:58.493Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:09:58.872Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:09:58.872Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:09:58.872Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:10:08.518Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:10:08.518Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:10:08.522Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:10:08.525Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:10:08.529Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:10:08.534Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:10:08.588Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:10:08.589Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:10:08.593Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:10:08.600Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:10:08.601Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:10:08.605Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:10:08.606Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:10:09.116Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:10:09.118Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:10:09.119Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:10:17.622Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:10:17.622Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:10:17.622Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:10:17.622Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:10:17.622Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:10:17.642Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:10:17.700Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:10:17.703Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:10:17.711Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:10:17.718Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:10:17.719Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:10:17.724Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:10:17.726Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:10:18.177Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:10:18.180Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:10:18.182Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:10:39.760Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:10:39.807Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:10:39.809Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:10:39.819Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:10:39.834Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:10:39.835Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:10:39.839Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:10:39.840Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:10:40.246Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:10:40.246Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:10:40.246Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:10:40.784Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:12:09.041Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:12:09.042Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:12:09.044Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:12:09.045Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:12:09.048Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:12:09.050Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:12:09.076Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:12:09.076Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:12:09.076Z"}
+{"level":"notice","message":"pid: 12544","timestamp":"2016-06-07T19:12:09.091Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:12:09.091Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:12:09.123Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:12:09.123Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:12:09.675Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:12:09.675Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:12:09.675Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:13:18.641Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:13:18.694Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:13:18.709Z"}
+{"level":"notice","message":"pid: 4260","timestamp":"2016-06-07T19:13:18.825Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:13:18.825Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:13:18.876Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:13:18.878Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:13:19.511Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:13:19.511Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:14:09.968Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:14:10.031Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:14:10.031Z"}
+{"level":"notice","message":"pid: 2492","timestamp":"2016-06-07T19:14:10.168Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:14:10.168Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:14:10.200Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:14:10.231Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:14:10.971Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:14:10.986Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":76,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:14:12.394Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:14:29.197Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:14:29.199Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:14:29.201Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:14:29.202Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:14:29.205Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:14:29.208Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:14:29.297Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:14:29.301Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:14:29.305Z"}
+{"level":"notice","message":"pid: 2492","timestamp":"2016-06-07T19:14:29.318Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:14:29.318Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:14:29.334Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:14:29.334Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:14:29.793Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:14:29.793Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:14:29.793Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:14:31.496Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:14:54.245Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:01.320Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:11.229Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:30.959Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:32.144Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:32.808Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:15:33.240Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:16:10.552Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:16:10.599Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:16:10.621Z"}
+{"level":"notice","message":"pid: 5440","timestamp":"2016-06-07T19:16:10.736Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:16:10.736Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:16:10.783Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:16:10.821Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:16:11.468Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:16:11.468Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":22,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:14.927Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:15.775Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:16.075Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:16.308Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:16.528Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:16.760Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:17.023Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:17.229Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:17.460Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:17.706Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:17.876Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:18.098Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:18.331Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:18.510Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:18.679Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:18.896Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.034Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.234Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.412Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.534Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.713Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:19.866Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.036Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.214Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.368Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.537Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.683Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:20.884Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.015Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":32,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.216Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.316Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.500Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.638Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.816Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:21.954Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.154Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.316Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.470Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":5,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.639Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.786Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:22.955Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.118Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.272Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.460Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.607Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.776Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:23.993Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:24.147Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:24.325Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:24.494Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:24.666Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":6,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:24.850Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.013Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.198Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.383Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.587Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.771Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:25.919Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:26.107Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:26.305Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:26.459Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:26.675Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:26.890Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:16:27.061Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:20:31.057Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:20:31.110Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:20:31.110Z"}
+{"level":"notice","message":"pid: 11616","timestamp":"2016-06-07T19:20:31.241Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:20:31.241Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:20:31.277Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:20:31.279Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:20:31.942Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:20:31.958Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:21:08.564Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:21:08.611Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:21:08.627Z"}
+{"level":"notice","message":"pid: 10412","timestamp":"2016-06-07T19:21:08.764Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:21:08.764Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:21:08.796Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:21:08.796Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:21:14.775Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:21:14.822Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:21:14.838Z"}
+{"level":"notice","message":"pid: 1556","timestamp":"2016-06-07T19:21:14.976Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:21:14.976Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:21:15.007Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:21:15.007Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:21:15.639Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:21:15.655Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:24:50.982Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:24:51.029Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:24:51.045Z"}
+{"level":"notice","message":"pid: 6812","timestamp":"2016-06-07T19:24:51.183Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:24:51.183Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:24:51.214Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:24:51.230Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:24:51.915Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:24:51.915Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:25:04.356Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:28:07.413Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:28:07.460Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:28:07.476Z"}
+{"level":"notice","message":"pid: 11912","timestamp":"2016-06-07T19:28:07.598Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:28:07.598Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:28:07.645Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:28:07.645Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:28:08.300Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:28:08.300Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:30:54.351Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:30:54.404Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:30:54.420Z"}
+{"level":"notice","message":"pid: 10380","timestamp":"2016-06-07T19:30:54.536Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:30:54.536Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:30:54.567Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:30:54.583Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:30:55.221Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:30:55.237Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:31:01.241Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:32:03.708Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:32:03.755Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:32:03.771Z"}
+{"level":"notice","message":"pid: 1676","timestamp":"2016-06-07T19:32:03.893Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:32:03.893Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:32:03.924Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:32:03.924Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:32:04.608Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:32:04.608Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:07.673Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:17.693Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:19.083Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:19.637Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:20.085Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:20.354Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:20.554Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:23.218Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:24.756Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:24.941Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.104Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.272Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.441Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.604Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.757Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:25.958Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:26.192Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:26.340Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:26.558Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:26.758Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:27.020Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:27.242Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:27.458Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:27.705Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:27.921Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:28.144Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:28.322Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:28.542Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:28.741Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:28.976Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:29.248Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:29.414Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:29.630Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:30.057Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:30.458Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:30.658Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:30.889Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:31.058Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:31.305Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:31.522Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:31.759Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:31.938Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:32.160Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:32.307Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:32.494Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:32.710Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:32.942Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.027Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.242Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.379Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.579Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.742Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:33.911Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:34.064Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:34.211Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:34.412Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:34.580Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:35.497Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:35.812Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:35.966Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.097Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.244Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.529Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.667Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.766Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:36.945Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.045Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.198Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.345Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.498Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.645Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.746Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:37.899Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.063Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.183Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.362Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.483Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.662Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.784Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:38.962Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.069Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.284Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.431Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.584Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.747Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:39.885Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.016Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.200Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.315Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.500Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.700Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:40.868Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.032Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.185Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.333Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.470Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.617Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.786Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:41.902Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.086Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.186Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.317Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.449Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.617Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.718Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.849Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:42.968Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.118Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.287Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.449Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.587Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.734Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:43.871Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:44.019Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:44.149Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:44.287Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:44.588Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:44.951Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.436Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.474Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.489Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.521Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.569Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.574Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.605Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.636Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.674Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.705Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.737Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.790Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.821Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.853Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.875Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.906Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.937Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:45.975Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.006Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.053Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.091Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.122Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.153Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.175Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:32:46.207Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Phrase.js) ***","timestamp":"2016-06-07T19:33:08.011Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:33:08.012Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:33:08.015Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:33:08.017Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:33:08.023Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:33:08.027Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:33:08.090Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:33:08.090Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:33:08.090Z"}
+{"level":"notice","message":"pid: 1676","timestamp":"2016-06-07T19:33:08.120Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:33:08.120Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:33:08.151Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:33:08.151Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:33:08.768Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:33:08.768Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:33:08.768Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:11.089Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:11.474Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:11.789Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:12.359Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:12.544Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-07T19:33:21.150Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-07T19:33:21.212Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-07T19:33:21.212Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-07T19:33:21.212Z"}
+{"level":"notice","message":"pid: 1676","timestamp":"2016-06-07T19:33:21.228Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-07T19:33:21.228Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-07T19:33:21.249Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-07T19:33:21.250Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-07T19:33:21.650Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-07T19:33:21.666Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-07T19:33:21.666Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:22.450Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:23.029Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:23.699Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:24.153Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:24.615Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:25.031Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:25.316Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:25.616Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:25.932Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:26.185Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:26.417Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:26.671Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:26.952Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:27.187Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:27.523Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:27.805Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:28.119Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:28.427Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:28.679Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:28.942Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:29.180Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:29.411Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:29.668Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:29.900Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:30.131Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:30.385Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:30.616Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:30.884Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:31.149Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:31.434Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:31.719Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:31.972Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:32.219Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"apiVersion\":\"1\",\"action\":\"testActions\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-07T19:33:32.418Z"}
