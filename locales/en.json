@@ -35,5 +35,6 @@
 	"actionhero member %s has left the cluster": "actionhero member %s has left the cluster",
 	"The actionhero has been stopped": "The actionhero has been stopped",
 	"***": "***",
-	"*** actionhero restarted ***": "*** actionhero restarted ***"
+	"*** actionhero restarted ***": "*** actionhero restarted ***",
+	"Unable to remove pidfile": "Unable to remove pidfile"
 }
