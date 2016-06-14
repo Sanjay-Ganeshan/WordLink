@@ -155,13 +155,28 @@ module.exports = {
 
 
     api.initializePhraseGenerator = function(err, data) {
+      console.log("started making gen");
       if (err) throw err;
       var allPhrasesStrings = data.replace(/\r/g,'').split('\n');
       var allPhrases = [];
+      var phraseSearchIndexes = {};
+      var prevFirstTwoLetters = ""
+      var startingIndex = 0;
+      var currFirstTwoLetters = ""
       for(var eachPhraseStringIndex in allPhrasesStrings) {
+        eachPhraseStringIndex = Math.floor(eachPhraseStringIndex);
         var eachPhraseString = allPhrasesStrings[eachPhraseStringIndex];
+        currFirstTwoLetters = eachPhraseString.substring(0,2);
+        if (currFirstTwoLetters != prevFirstTwoLetters) {
+          phraseSearchIndexes[prevFirstTwoLetters] = {"start": startingIndex, "end": eachPhraseStringIndex};
+          startingIndex = eachPhraseStringIndex;
+        }
+        prevFirstTwoLetters = currFirstTwoLetters;
         allPhrases.push(api.Phrase.constructPhrase(eachPhraseString));
+        
       }
+      phraseSearchIndexes[currFirstTwoLetters] = {"start": startingIndex, "end": allPhrasesStrings.length};
+      console.log("Finished list");
       var getGenerator = function() {
         let constructDictionary = function() {
           var newDictionary = {};
@@ -221,15 +236,36 @@ module.exports = {
         }
         var allPhrasesDict = constructDictionary();
         //console.log("Constructed dictionary");
+        var numPhrasesDone = 0;
+        var numPhrasesTotal = allPhrases.length;
+        var numCombinationsTotal = numPhrasesTotal * numPhrasesTotal;
+        var numThatWork = 0;
+        var numSinceLastPrint = 0;
         for(var eachPhraseIndex in allPhrases) {
           var eachPhrase = allPhrases[eachPhraseIndex];
           allPhrasesDict.set(eachPhrase,[]);
-          for(var eachOtherPhraseIndex in allPhrases) {
-            var eachOtherPhrase = allPhrases[eachOtherPhraseIndex];
-            if(!eachPhrase.equals(eachOtherPhrase) && eachPhrase.getWord(-1) == eachOtherPhrase.getWord(0)) {
-              allPhrasesDict.get(eachPhrase).push(eachOtherPhrase);
+          if(typeof(phraseSearchIndexes[eachPhrase.getWord(-1).substring(0,2)]) === "undefined") {
+
+          }
+          else{
+            var currSearchIndexes = phraseSearchIndexes[eachPhrase.getWord(-1).substring(0,2)];
+            numPhrasesDone += currSearchIndexes.start;
+            numPhrasesDone += numPhrasesTotal - currSearchIndexes.end;
+            for(var eachOtherPhraseIndex = currSearchIndexes.start; eachOtherPhraseIndex < currSearchIndexes.end; eachOtherPhraseIndex++) {
+              var eachOtherPhrase = allPhrases[eachOtherPhraseIndex];
+              if(numSinceLastPrint % 200000 == 0) {
+                console.log(Math.floor(1.0 * numPhrasesDone / numCombinationsTotal * 10000) / 100.0  + "% analyzed ... " + Math.floor(1.0 * numThatWork / numPhrasesDone * 10000) / 100.0 + "% work. (" + numThatWork + ")") ;
+              }
+              numPhrasesDone += 1;
+              numSinceLastPrint += 1;
+              if(!eachPhrase.equals(eachOtherPhrase) && eachPhrase.getWord(-1) == eachOtherPhrase.getWord(0)) {
+                allPhrasesDict.get(eachPhrase).push(eachOtherPhrase);
+                numThatWork++;
+              }
+              //break;
             }
           }
+          //break;
         }
         let gen = function(desiredWords,numRetries) {
           var numTriesUsed = 0;
@@ -259,6 +295,7 @@ module.exports = {
           }
           return api.Phrase.constructPhraseChain(phrasesToUse);
         }
+        console.log("Done making gen");
         return gen;
       }
       api.PhraseGenerator = getGenerator();

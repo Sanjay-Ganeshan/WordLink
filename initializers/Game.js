@@ -7,6 +7,15 @@ module.exports = {
   initialize: function (api, next) {
     api.Game = {
       constructGame: function () {
+        var generateGuid = function () {
+        function s4() {
+          return Math.floor((1 + Math.random()) * 0x10000)
+            .toString(16)
+            .substring(1);
+        }
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+          s4() + '-' + s4() + s4() + s4();
+        }
         var newGame = {};
         var generator = api.PhraseGenerator;
         newGame.players = [];
@@ -18,7 +27,7 @@ module.exports = {
         newGame.numRetriesPerGeneration = 30;
         newGame.currentPhrase = generator(newGame.numWordsInChain,newGame.numRetriesPerGeneration);
         newGame.scorePerWord = 100;
-        
+        newGame.id = generateGuid()
 
         newGame.getCurrentPlayer = function () {
           return this.players[this.currentTurn];
@@ -56,6 +65,16 @@ module.exports = {
           player.score = 0;
           this.players.push(player);
         }
+
+        newGame.playerInGame = function (playerId) {
+          for(var i = 0; i < this.players.length; i++) {
+            if(this.players[i].id == playerId) {
+              return true;
+            }
+          }
+          return false;
+        }
+
         newGame.removePlayer = function (playerId) {
           for(var i = 0; i < this.players.length; i++) {
             if(this.players[i].id == playerId) {
@@ -65,6 +84,16 @@ module.exports = {
             }
           }
         }
+
+        newGame.listPlayerNames = function() {
+          var playerNames = []
+          for(eachPlayerIndex in this.players) {
+            eachPlayerIndex = +eachPlayerIndex;
+            playerNames.push(this.players[eachPlayerIndex].name);
+          }
+          return playerNames;
+        }
+
         newGame.getChainSoFar = function () {
           return this.currentPhrase.getChainTill(this.currentWordFront,this.currentWordBack);
         }
@@ -103,6 +132,13 @@ module.exports = {
           return this.currentPhrase.getHint(this.currentPhrase.getIndexOfWordFromBack(this.currentWordBack) - 1, this.currentLetter);
         }
 
+        newGame.createNewWord = function() {
+          this.currentPhrase = generator(this.numWordsInChain,this.numRetriesPerGeneration);
+          this.currentWordFront = 0;
+          this.currentWordBack = 0;
+          this.currentLetter = 0;
+        }
+
         return newGame;
       }
     };
@@ -110,6 +146,7 @@ module.exports = {
     next();
   },
   start: function (api, next) {
+    api.allGames = []
     next();
   },
   stop: function (api, next) {
