@@ -2850,3 +2850,20 @@
 {"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-13T22:41:46.591Z"}
 {"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-13T22:41:46.638Z"}
 {"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-13T22:41:46.655Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-14T20:24:52.508Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-14T20:24:52.894Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-14T20:24:52.923Z"}
+{"level":"notice","message":"pid: 4476","timestamp":"2016-06-14T20:24:53.794Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-14T20:24:53.794Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-14T20:24:53.826Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-14T20:24:53.847Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-14T20:24:55.048Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-14T20:24:55.048Z"}
+{"to":"127.0.0.1","action":"testWordGen","params":"{\"action\":\"testWordGen\",\"apiVersion\":1}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:29:58.439Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"apiVersion\":\"1\",\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createPlayer\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:33:33.097Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:33:44.489Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Subbu\",\"password\":\"sbsb\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:00.278Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:05.100Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Subbu\",\"password\":\"sbsb\",\"action\":\"createGame\",\"apiVersion\":1}","duration":11,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:15.075Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:32.096Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:35:08.453Z"}

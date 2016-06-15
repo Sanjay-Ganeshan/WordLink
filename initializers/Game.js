@@ -27,7 +27,8 @@ module.exports = {
         newGame.numRetriesPerGeneration = 30;
         newGame.currentPhrase = generator(newGame.numWordsInChain,newGame.numRetriesPerGeneration);
         newGame.scorePerWord = 100;
-        newGame.id = generateGuid()
+        newGame.id = generateGuid();
+        newGame.isForward = null;
 
         newGame.getCurrentPlayer = function () {
           return this.players[this.currentTurn];
@@ -36,6 +37,11 @@ module.exports = {
         newGame.getCurrentPlayerName = function() {
           return this.getCurrentPlayer().name;
         }
+
+        newGame.isTurnOf = function(otherPlayer) {
+          return this.getCurrentPlayer().id == otherPlayer.id;
+        }
+
         newGame.fixTurn = function () {
           if (this.players.length == 0) {
             this.currentTurn = 0;
@@ -87,7 +93,7 @@ module.exports = {
 
         newGame.listPlayerNames = function() {
           var playerNames = []
-          for(eachPlayerIndex in this.players) {
+          for(var eachPlayerIndex in this.players) {
             eachPlayerIndex = +eachPlayerIndex;
             playerNames.push(this.players[eachPlayerIndex].name);
           }
@@ -103,10 +109,12 @@ module.exports = {
             //Go to the next word
             this.getCurrentPlayer().score += this.scorePerWord;
             this.advanceWordFront();
+            return true;
           }
           else {
             this.advanceLetter();
             this.advanceTurn();
+            return false;
           }
         }
 
@@ -116,11 +124,64 @@ module.exports = {
             //Go to the next word
             this.getCurrentPlayer().score += this.scorePerWord;
             this.advanceWordBack();
+            return true;
             
           }
           else {
             this.advanceLetter();
             this.advanceTurn();
+            return false;
+          }
+        }
+
+        newGame.setDirectionFromPlayer = function(isForward) {
+          if(this.isForward == null) {
+            this.setDirection(isForward);
+            return true;
+          }
+          else {
+            return false;
+          }
+        }
+
+        newGame.setDirection = function(isForward) {
+          this.isForward = isForward;
+        }
+
+        newGame.submitGuess = function(guess) {
+          if(this.isForward == null) {
+            return null;
+          }
+          else {
+            var retVal;
+            if(this.isForward) {
+              retVal = this.submitGuessFront(guess);
+            }
+            else {
+              retVal = this.submitGuessBack(guess);
+            }
+            this.isForward = null;
+            return retVal;
+          }
+        }
+
+        newGame.directionChosen = function() {
+          return this.isForward != null;
+        }
+
+        newGame.getHintCurrent = function() {
+          if(this.isForward == null) {
+            return null;
+          }
+          else {
+            var retVal;
+            if(this.isForward) {
+              retVal = this.getHintFront();
+            }
+            else {
+              retVal = this.getHintBack();
+            }
+            return retVal;
           }
         }
 

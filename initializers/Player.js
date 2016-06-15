@@ -29,7 +29,7 @@ module.exports = {
         }
 
         newPlayer.getGame = function() {
-          for(eachGameIndex in api.allGames) {
+          for(var eachGameIndex in api.allGames) {
             eachGameIndex = +eachGameIndex;
             if(api.allGames[eachGameIndex].playerInGame(this.id)) {
               return api.allGames[eachGameIndex];
