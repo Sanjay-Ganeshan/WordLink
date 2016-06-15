@@ -29,9 +29,29 @@ module.exports = {
         newGame.scorePerWord = 100;
         newGame.id = generateGuid();
         newGame.isForward = null;
+        newGame.hasStarted = false;
 
         newGame.getCurrentPlayer = function () {
           return this.players[this.currentTurn];
+        }
+
+        newGame.getSummaryState = function() {
+          var summary = {};
+          summary.players = []
+          for(var i = 0; i < this.players.length; i++) {
+            if(i == this.currentTurn) {
+              summary.players.push({"name":this.players[i].name,"score": this.players[i].score, "turn":true});
+            }
+            else {
+              summary.players.push({"name":this.players[i].name,"score": this.players[i].score, "turn":false});
+            }
+          }
+          summary.phrase = this.getChainSoFar();
+          summary.direction = this.isForward;
+          summary.gameId = this.id;
+          summary.numHintLetters = this.currentLetter;
+
+          return summary;
         }
 
         newGame.getCurrentPlayerName = function() {
@@ -68,8 +88,12 @@ module.exports = {
           this.currentLetter += 1;
         }
         newGame.addPlayer = function (player) {
+          if(this.hasStarted) {
+            return false;
+          }
           player.score = 0;
           this.players.push(player);
+          return true;
         }
 
         newGame.playerInGame = function (playerId) {
@@ -86,9 +110,18 @@ module.exports = {
             if(this.players[i].id == playerId) {
               this.players.splice(i,1);
               this.fixTurn();
-              return;
+              if(this.players.length == 0) {
+                for(var j = 0; j < api.allGames.length; j++) {
+                  if(api.allGames[j].id == this.id) {
+                    api.allGames.splice(j,1);
+                    break;
+                  }
+                }
+              }
+              return true;
             }
           }
+          return false;
         }
 
         newGame.listPlayerNames = function() {
@@ -137,6 +170,7 @@ module.exports = {
         newGame.setDirectionFromPlayer = function(isForward) {
           if(this.isForward == null) {
             this.setDirection(isForward);
+            //console.log(this.isForward);
             return true;
           }
           else {
@@ -146,6 +180,11 @@ module.exports = {
 
         newGame.setDirection = function(isForward) {
           this.isForward = isForward;
+          this.hasStarted = true;
+        }
+
+        newGame.getDirection = function() {
+          return this.isForward;
         }
 
         newGame.submitGuess = function(guess) {
@@ -198,6 +237,7 @@ module.exports = {
           this.currentWordFront = 0;
           this.currentWordBack = 0;
           this.currentLetter = 0;
+          this.hasStarted = false;
         }
 
         return newGame;

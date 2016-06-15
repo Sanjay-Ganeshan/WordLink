@@ -22,9 +22,6 @@ module.exports = {
         newPlayer.score = 0;
 
         newPlayer.authenticate = function (pass) {
-          console.log("Passed")
-          console.log(pass);
-          console.log(password);
           return pass == password;
         }
 
