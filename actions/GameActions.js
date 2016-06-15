@@ -140,10 +140,16 @@ exports.joinGame = {
       for(var eachGameNum in api.allGames) {
         eachGameNum = +eachGameNum;
         if(api.allGames[eachGameNum].id == data.params.gameId) {
-          api.allGames[eachGameNum].addPlayer(player);
-          data.response.status = "Success"
-          next();
-          return;
+          var worked = api.allGames[eachGameNum].addPlayer(player);
+          if(worked) {
+            data.response.gameId = api.allGames[eachGameNum].id;
+            next();
+            return;
+          }
+          else {
+            next(new Error("Game has already started!"));
+            return;
+          }
         }
       }
     }
@@ -166,7 +172,7 @@ exports.createGame = {
   run: function (api, data, next) {
     let error = null;
     var player = data.response.userParam;
-    console.log(player);
+    //console.log(player);
     if(player.getGame() != null) {
       next(new Error("Player is already in a game!"));
       return;
@@ -202,6 +208,54 @@ exports.gamesList = {
     }
     data.response.gamesList = gameIds;
     next();
+  }
+};
+
+exports.leaveGame = {
+  name: 'leaveGame',
+  description: 'I try leaving the game',
+  blockedConnectionTypes: [],
+  outputExample: {},
+  matchExtensionMimeType: false,
+  version: 1.0,
+  toDocument: true,
+  middleware: ['authPlayer'],
+
+  inputs: loginInputs,
+
+  run: function (api, data, next) {
+    let error = null;
+    var gameIds = [];
+    var player = data.response.userParam;
+    var playerGame = player.getGame();
+    if(playerGame != null) {
+      if (playerGame.isTurnOf(player)) {
+        if(!playerGame.directionChosen()) {
+          var worked = playerGame.removePlayer(player.id);
+          if (worked) {
+            data.response.gameId = playerGame.id;
+            next();
+            return;
+          }
+          else {
+            next(new Error("Failed to leave game!"));
+            return;
+          }
+        }
+        else {
+          next(new Error("Direction has already been chosen!"));
+          return;
+        }
+      } 
+      else {
+        next(new Error("It is not your turn!"));
+        return;
+      }
+    }
+    else {
+      next(new Error("Player is not in a game!"));
+      return;
+    }
   }
 };
 
@@ -269,6 +323,7 @@ exports.getHint = {
         if(playerGame.directionChosen()) {
           var hint = playerGame.getHintCurrent();
           data.response.hint = hint;
+          data.response.direction = playerGame.getDirection();
           next();
           return;
         }
@@ -317,6 +372,35 @@ exports.getCurrentPhrase = {
   }
 };
 
+exports.getGameSummary = {
+  name: 'getGameSummary',
+  description: 'I try getting the game summary as the current player',
+  blockedConnectionTypes: [],
+  outputExample: {},
+  matchExtensionMimeType: false,
+  version: 1.0,
+  toDocument: true,
+  middleware: ['authPlayer'],
+
+  inputs: loginInputs,
+
+  run: function (api, data, next) {
+    let error = null;
+    var gameIds = [];
+    var player = data.response.userParam;
+    var playerGame = player.getGame();
+    if(playerGame != null) {
+      data.response.summary = playerGame.getSummaryState();
+      next();
+      return;
+    }
+    else {
+      next(new Error("Player is not in a game!"));
+      return;
+    }
+  }
+};
+
 exports.submitDirection = {
   name: 'submitDirection',
   description: 'I try setting the direction as the current player',
@@ -339,6 +423,7 @@ exports.submitDirection = {
         if(!playerGame.directionChosen()) {
           var worked = playerGame.setDirectionFromPlayer(data.params.direction);
           data.response.Success = worked;
+          //console.log("Direction submission worked");
           next();
           return;
         }
@@ -351,6 +436,35 @@ exports.submitDirection = {
         next(new Error("It is not your turn!"));
         return;
       }
+    }
+    else {
+      next(new Error("Player is not in a game!"));
+      return;
+    }
+  }
+};
+
+exports.getIsPlayerTurn = {
+  name: 'askIfTurn',
+  description: 'I tell the player if it is their turn',
+  blockedConnectionTypes: [],
+  outputExample: {},
+  matchExtensionMimeType: false,
+  version: 1.0,
+  toDocument: true,
+  middleware: ['authPlayer'],
+
+  inputs: loginInputs,
+
+  run: function (api, data, next) {
+    let error = null;
+    var gameIds = [];
+    var player = data.response.userParam;
+    var playerGame = player.getGame();
+    if(playerGame != null) {
+        data.response.isTurn = playerGame.isTurnOf(player);
+        next()
+        return;
     }
     else {
       next(new Error("Player is not in a game!"));
@@ -382,4 +496,5 @@ exports.getGame = {
     next();
   }
 };
+
 

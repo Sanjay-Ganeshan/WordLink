@@ -2867,3 +2867,768 @@
 {"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Subbu\",\"password\":\"sbsb\",\"action\":\"createGame\",\"apiVersion\":1}","duration":11,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:15.075Z"}
 {"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:34:32.096Z"}
 {"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-14T20:35:08.453Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T15:45:27.211Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T15:45:27.428Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T15:45:27.438Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T15:45:28.137Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T15:45:28.137Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T15:45:28.158Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T15:45:28.158Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T15:45:29.059Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T15:45:29.059Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sanjay\",\"password\":\"G\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T15:47:28.376Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sanjay\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":4,"error":"Error: password is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T15:53:50.205Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T16:55:38.847Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T16:55:38.847Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T16:55:38.847Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T16:55:38.847Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T16:55:38.863Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T16:55:38.863Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T16:55:38.944Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T16:55:38.944Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T16:55:38.960Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T16:55:38.991Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T16:55:38.991Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T16:55:39.012Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T16:55:39.012Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T16:55:40.079Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T16:55:40.084Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T16:55:40.086Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T16:56:31.237Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T16:56:31.284Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T16:56:31.284Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T16:56:31.300Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T16:56:31.315Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T16:56:31.315Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T16:56:31.336Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T16:56:31.337Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T16:56:31.838Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T16:56:31.838Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T16:56:31.854Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T16:57:20.683Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T16:57:20.684Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T16:57:20.685Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T16:57:20.686Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T16:57:20.691Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T16:57:20.692Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T16:57:20.717Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T16:57:20.717Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T16:57:20.717Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T16:57:20.733Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T16:57:20.733Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T16:57:20.764Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T16:57:20.764Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T16:57:21.211Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T16:57:21.212Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T16:57:21.212Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T16:58:13.148Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T16:58:13.149Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T16:58:13.149Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T16:58:13.149Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T16:58:13.149Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T16:58:13.149Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T16:58:13.180Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T16:58:13.180Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T16:58:13.180Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T16:58:13.180Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T16:58:13.197Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T16:58:13.202Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T16:58:13.203Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T16:58:13.691Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T16:58:13.694Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T16:58:13.694Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:06:17.431Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:06:17.433Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:06:17.435Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:06:17.437Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:06:17.447Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:06:17.447Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:06:17.535Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:06:17.538Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:06:17.543Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:06:17.569Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:06:17.569Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:06:17.588Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:06:17.592Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:06:18.395Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:06:18.395Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:06:18.395Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:07:45.344Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:07:45.344Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:07:45.344Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:07:45.344Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:07:45.344Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:07:45.363Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:07:45.443Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:07:45.446Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:07:45.446Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:07:45.477Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:07:45.477Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:07:45.497Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:07:45.500Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:07:46.292Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:07:46.292Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:07:46.292Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:08:35.399Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:08:35.399Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:08:35.415Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:08:35.415Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:08:35.415Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:08:35.415Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:08:35.446Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:08:35.446Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:08:35.462Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:08:35.462Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:08:35.462Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:08:35.495Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:08:35.497Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:08:35.961Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:08:35.963Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:08:35.964Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:27:45.170Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:27:45.172Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:27:45.175Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:27:45.176Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:27:45.180Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:27:45.184Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:27:45.243Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:27:45.259Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:27:45.265Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:27:45.286Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:27:45.286Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:27:45.317Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:27:45.317Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:27:46.117Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:27:46.117Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:27:46.133Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:28:42.115Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:28:42.166Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:28:42.166Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:28:42.166Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:28:42.182Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:28:42.182Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:28:42.201Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:28:42.203Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:28:42.663Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:28:42.665Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:28:42.665Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:29:33.222Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:29:33.224Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:29:33.226Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:29:33.226Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:29:33.226Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:29:33.226Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:29:33.257Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:29:33.257Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:29:33.257Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:29:33.273Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:29:33.273Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:29:33.306Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:29:33.308Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:29:33.845Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:29:33.848Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:29:33.851Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:30:24.069Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:30:24.085Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:30:24.085Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:30:24.085Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:30:24.085Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:30:24.085Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:30:24.121Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:30:24.121Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:30:24.121Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:30:24.137Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:30:24.137Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:30:24.168Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:30:24.168Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:30:24.584Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:30:24.584Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:30:24.584Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:31:13.586Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:31:13.587Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:31:13.588Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:31:13.589Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:31:13.591Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:31:13.594Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:31:13.630Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:31:13.631Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:31:13.636Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:31:13.640Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:31:13.640Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:31:13.671Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:31:13.671Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:31:15.067Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:31:15.068Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:31:15.069Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:32:04.591Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:32:04.638Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:32:04.638Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:32:04.638Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:32:04.638Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:32:04.638Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:32:04.659Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:32:04.660Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:32:05.156Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:32:05.157Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:32:05.157Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:33:04.258Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:33:04.259Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:33:04.260Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:33:04.261Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:33:04.264Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:33:04.265Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:33:04.301Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:33:04.301Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:33:04.301Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:33:04.317Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:33:04.317Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:33:04.348Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:33:04.348Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:33:05.924Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:33:05.924Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:33:05.924Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:34:22.629Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:34:22.664Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:34:22.664Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:34:22.679Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:34:22.679Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:34:22.679Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:34:22.697Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:34:22.699Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:34:23.295Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:34:23.311Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:34:23.311Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:35:45.782Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:35:45.842Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:35:45.842Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:35:45.842Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:35:45.858Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:35:45.858Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:35:45.876Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:35:45.879Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:35:48.086Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:35:48.086Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:35:48.086Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"action\":\"testActions\",\"apiVersion\":1}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T17:39:43.671Z"}
+{"to":"127.0.0.1","action":"testActions","params":"{\"action\":\"testActions\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T17:40:09.610Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T17:48:25.703Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:48:25.708Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:48:25.727Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:48:25.732Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:48:25.746Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:48:25.763Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T17:48:25.895Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T17:48:25.897Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T17:48:25.907Z"}
+{"level":"notice","message":"pid: 8084","timestamp":"2016-06-15T17:48:25.938Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T17:48:25.939Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T17:48:25.946Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T17:48:25.950Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T17:48:26.984Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T17:48:26.988Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T17:48:26.988Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T17:49:17.317Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T17:49:17.320Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T17:49:17.321Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T17:49:17.324Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T17:49:17.326Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T18:10:09.421Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T18:10:09.472Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T18:10:09.488Z"}
+{"level":"notice","message":"pid: 5296","timestamp":"2016-06-15T18:10:09.621Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T18:10:09.621Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T18:10:09.652Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T18:10:09.652Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T18:10:10.338Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T18:10:10.338Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:11:21.974Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createGame\",\"apiVersion\":1}","duration":11,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:11:26.872Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:11:35.926Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":18,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:13:12.054Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:21:04.283Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T18:22:04.272Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T18:22:04.272Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T18:22:04.272Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T18:22:04.288Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T18:22:04.288Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T18:22:04.304Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T18:22:04.395Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T18:22:04.398Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T18:22:04.404Z"}
+{"level":"notice","message":"pid: 5296","timestamp":"2016-06-15T18:22:04.429Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T18:22:04.431Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T18:22:04.442Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T18:22:04.446Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T18:22:05.235Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T18:22:05.251Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T18:22:05.251Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:22:52.043Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":4,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:00.785Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:11.488Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"apiVersion\":\"1\",\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createPlayer\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:34.762Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"apiVersion\":\"1\",\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createGame\"}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:37.177Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:41.091Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:23:47.150Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:24:35.690Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:26:28.152Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:26:59.081Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:28:26.287Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T18:33:32.775Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T18:34:19.410Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T18:34:19.410Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T18:34:19.410Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T18:34:19.426Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T18:34:19.426Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T19:17:33.402Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T19:17:33.466Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T19:17:33.477Z"}
+{"level":"notice","message":"pid: 13040","timestamp":"2016-06-15T19:17:33.594Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T19:17:33.610Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T19:17:33.646Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T19:17:33.647Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T19:17:34.311Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T19:17:34.326Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:23:46.240Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":15,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:28:23.117Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"error":"Error: password is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:28:32.788Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:28:42.133Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T19:29:59.836Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T19:29:59.888Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T19:29:59.888Z"}
+{"level":"notice","message":"pid: 10664","timestamp":"2016-06-15T19:30:00.025Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T19:30:00.025Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T19:30:00.074Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T19:30:00.090Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T19:30:00.722Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T19:30:00.722Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:16.874Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:19.921Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:29.494Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:34.060Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:44.603Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:31:54.579Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":18,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:33:41.092Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:33:44.566Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:37:26.074Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:37:38.822Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:37:42.188Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:38:43.802Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:39:39.481Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:39:44.417Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T19:40:51.362Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T19:40:51.406Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T19:40:51.421Z"}
+{"level":"notice","message":"pid: 13208","timestamp":"2016-06-15T19:40:51.543Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T19:40:51.543Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T19:40:51.563Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T19:40:51.566Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T19:40:52.229Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T19:40:52.229Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:41:49.699Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:41:52.779Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:41:59.347Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:42:04.788Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:42:13.225Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:42:30.013Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T19:42:56.676Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T19:42:56.708Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T19:42:56.708Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T19:42:56.708Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T19:42:57.875Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T19:42:57.922Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T19:42:57.944Z"}
+{"level":"notice","message":"pid: 5352","timestamp":"2016-06-15T19:42:58.062Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T19:42:58.077Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T19:42:58.108Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T19:42:58.108Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T19:42:58.955Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T19:42:58.972Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:44:03.694Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:44:07.406Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":23,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:44:10.731Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:44:14.384Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:44:34.434Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:45:04.071Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:47:11.671Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:47:22.646Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:47:29.749Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":0,"error":"Error: Player is already in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:47:38.997Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":16,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:47:58.635Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":1,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:48:01.731Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:48:18.704Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:48:30.830Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":5,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:50:40.030Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:50:50.632Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:50:56.252Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:16.998Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:24.293Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":6,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:33.878Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:37.081Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:48.160Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"gameId\":\"6cebe23a-f648-7bd7-30b1-4765772957af\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":6,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:50.876Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:51.931Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:51:54.974Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:04.354Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:07.352Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":6,"error":"Error: Direction has not been chosen!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:08.370Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:29.364Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":3,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:33.498Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":1,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:51.091Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":4,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:52:57.076Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:00.608Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:08.572Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":18,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:47.894Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:52.365Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"gameId\":\"45693cd3-cf1b-5099-931a-4c82c4f32830\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:56.088Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:55:59.409Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:01.484Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:04.534Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":9,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:21.478Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:26.780Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"error":"Error: Direction has not been chosen!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:27.829Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:31.809Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"error":"Error: Direction has not been chosen!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T19:56:32.841Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T20:06:08.194Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:06:08.194Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:06:08.210Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:06:08.210Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:06:08.226Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:06:08.242Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:06:08.409Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:06:08.411Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:06:08.426Z"}
+{"level":"notice","message":"pid: 5352","timestamp":"2016-06-15T20:06:08.473Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:06:08.475Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:06:08.482Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:06:08.486Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:06:09.390Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:06:09.392Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T20:06:09.393Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":2,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:07:44.560Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:07:48.404Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:08:45.146Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:08:49.769Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:08:56.502Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:08:58.928Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:09:09.745Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:09:15.148Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:09:26.731Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:09:35.002Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"error":"Error: Direction has not been chosen!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:09:36.034Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:12:12.136Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:12:12.136Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:12:12.136Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:12:12.152Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:12:12.152Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:12:14.243Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:12:14.290Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:12:14.306Z"}
+{"level":"notice","message":"pid: 11980","timestamp":"2016-06-15T20:12:14.443Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:12:14.443Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:12:14.479Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:12:14.486Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:12:15.144Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:12:15.144Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"apiVersion\":\"1\",\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createPlayer\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:14:17.313Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createGame\",\"apiVersion\":1}","duration":11,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:14:28.399Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:14:34.806Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:14:51.566Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Player.js) ***","timestamp":"2016-06-15T20:16:13.056Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:16:13.059Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:16:13.065Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:16:13.066Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:16:13.066Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:16:13.081Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:16:13.195Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:16:13.195Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:16:13.195Z"}
+{"level":"notice","message":"pid: 11980","timestamp":"2016-06-15T20:16:13.233Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:16:13.233Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:16:13.264Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:16:13.264Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:16:14.418Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:16:14.441Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T20:16:14.442Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:17:42.782Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"createGame\",\"apiVersion\":1}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:17:47.029Z"}
+{"to":"127.0.0.1","action":"listPlayers","params":"{\"action\":\"listPlayers\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:18:00.461Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:18:20.079Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"direction\":true,\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:23:39.711Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"direction\":true,\"action\":\"submitDirection\",\"apiVersion\":1}","duration":5,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:23:52.877Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sanjay\",\"password\":\"sgsg\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:24:28.107Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T20:24:52.730Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:24:52.732Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:24:52.737Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:24:52.739Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:24:52.745Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:24:52.750Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:24:53.063Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:24:53.067Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:24:53.079Z"}
+{"level":"notice","message":"pid: 11980","timestamp":"2016-06-15T20:24:53.112Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:24:53.113Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:24:53.120Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:24:53.127Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:24:54.445Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:24:54.451Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T20:24:54.452Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:26:26.821Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:26:40.065Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:26:43.722Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:26:46.690Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:00.667Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":11,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:02.898Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:11.685Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"gameId\":\"2402d9a6-68bd-9491-40b1-38706a4751cf\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:14.941Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:16.190Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:19.156Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:19.225Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:24.489Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:28:25.889Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:28:37.900Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:28:37.902Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:28:37.903Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:28:37.906Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:28:37.908Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:28:40.303Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:28:40.497Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:28:40.509Z"}
+{"level":"notice","message":"pid: 13308","timestamp":"2016-06-15T20:28:41.173Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:28:41.174Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:28:41.187Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:28:41.198Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:28:42.055Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:28:42.055Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:29:42.190Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:29:45.061Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":16,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:29:48.664Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:29:51.653Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:39.147Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:40.472Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"gameId\":\"75a2d902-98e0-518c-08cd-0abfb1634f3b\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:42.734Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:43.805Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:46.806Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:46.837Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":4,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:51.489Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:54.919Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:55.963Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:30:58.636Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:01.681Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Jay\",\"guess\":\"barley\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:11.477Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:12.505Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:15.557Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:19.097Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:22.130Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:23.668Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Sub\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:33.234Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:34.265Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:35.310Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:36.257Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:39.290Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Sub\",\"guess\":\"brace\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:47.450Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:50.452Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:52.038Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:53.479Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:55.058Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:31:56.117Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":5,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:01.401Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:11.038Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:12.070Z"}
+{"to":"127.0.0.1","action":"getGame","params":"{\"gameId\":\"75a2d902-98e0-518c-08cd-0abfb1634f3b\",\"action\":\"getGame\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:39.793Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Jay\",\"guess\":\"bridge\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:54.453Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:32:56.638Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:33:48.043Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:33:50.746Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:33:51.782Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Jay\",\"guess\":\"player\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:33:54.542Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:33:57.831Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:03.435Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:04.505Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:05.543Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Jay\",\"guess\":\"piano\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:08.052Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:09.329Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Jay\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:12.995Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:34:16.375Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:39:13.038Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:39:13.101Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:39:13.107Z"}
+{"level":"notice","message":"pid: 5144","timestamp":"2016-06-15T20:39:13.238Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:39:13.238Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:39:13.270Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:39:13.285Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:39:14.013Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:39:14.017Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:13.390Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:17.219Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:29.837Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:32.083Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":7,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:35.996Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:37.302Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:37.550Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"gameId\":\"cfd9f74a-033e-5e5f-302a-77a432539f20\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:42.899Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:44.225Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:47.275Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:48.575Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:51.609Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":0,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:52.447Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:52.928Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:53.733Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:55.007Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:55.939Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:56.318Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:57.242Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:57.621Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:40:58.943Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:00.254Z"}
+{"to":"127.0.0.1","action":"leaveGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"leaveGame\",\"apiVersion\":1}","duration":1,"error":"Error: Failed to leave game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:00.353Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:01.554Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:01.654Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:02.856Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:02.936Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:04.156Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":3,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:04.256Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:05.457Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"error":"Error: Player is not in a game!","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:41:06.759Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T20:42:48.286Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:42:48.286Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:42:48.286Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:42:48.286Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:42:48.317Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:42:48.317Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:42:48.405Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:42:48.405Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:42:48.421Z"}
+{"level":"notice","message":"pid: 5144","timestamp":"2016-06-15T20:42:48.436Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:42:48.436Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:42:48.467Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:42:48.467Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:42:49.346Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:42:49.352Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T20:42:49.359Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (C:\\Users\\sanga_000\\Documents\\Programs\\Actionhero\\WordLink\\initializers\\Game.js) ***","timestamp":"2016-06-15T20:43:37.568Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:43:37.568Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:43:37.575Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:43:37.576Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":12,"error":"Error: the server is shutting down","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:43:37.609Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:43:37.617Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:43:37.623Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2016-06-15T20:43:37.716Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2016-06-15T20:43:37.719Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has joined the cluster","timestamp":"2016-06-15T20:43:37.730Z"}
+{"level":"notice","message":"pid: 5144","timestamp":"2016-06-15T20:43:37.762Z"}
+{"level":"notice","message":"server ID: 10.252.64.194","timestamp":"2016-06-15T20:43:37.763Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"2016-06-15T20:43:37.772Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"2016-06-15T20:43:37.775Z"}
+{"level":"notice","message":"environment: development","timestamp":"2016-06-15T20:43:38.452Z"}
+{"level":"notice","message":"*** Server Started ***","timestamp":"2016-06-15T20:43:38.452Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2016-06-15T20:43:38.452Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Subbu\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:44:24.470Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:44:32.293Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"\",\"password\":\"\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:44:35.839Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":0,"error":"Error: ERROR. Not real user","level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:44:40.253Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:44:50.074Z"}
+{"to":"127.0.0.1","action":"createPlayer","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createPlayer\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:02.766Z"}
+{"to":"127.0.0.1","action":"userValid","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"userValid\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:06.405Z"}
+{"to":"127.0.0.1","action":"createGame","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"createGame\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:11.991Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:13.294Z"}
+{"to":"127.0.0.1","action":"listGames","params":"{\"action\":\"listGames\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:13.734Z"}
+{"to":"127.0.0.1","action":"joinGame","params":"{\"username\":\"Jay\",\"password\":\"g\",\"gameId\":\"cd783501-9994-8bb1-778a-72a8bdcadbf0\",\"action\":\"joinGame\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:17.869Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:19.179Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:22.234Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:23.532Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:26.575Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:27.894Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:30.937Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:32.258Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:35.281Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:36.593Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:39.696Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:40.987Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:44.013Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:45.285Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:48.315Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:49.603Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:52.653Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:53.968Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:57.010Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:45:58.327Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:01.360Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:02.676Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:05.716Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:07.017Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:10.038Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:11.346Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:14.394Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:15.702Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:18.758Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Sub\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:20.059Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:20.074Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:21.382Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:22.405Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:23.110Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:24.404Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Sub\",\"guess\":\"cloud\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:26.615Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:27.427Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:27.928Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:28.750Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:31.778Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:33.070Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:36.105Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:37.402Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:40.421Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:41.742Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:44.779Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:46.097Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:49.120Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:50.405Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:53.454Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:54.809Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:57.870Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:46:59.223Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:02.242Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:03.544Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:06.592Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:07.905Z"}
+{"to":"127.0.0.1","action":"submitDirection","params":"{\"username\":\"Sub\",\"direction\":true,\"password\":\"g\",\"action\":\"submitDirection\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:10.564Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:10.929Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:11.865Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:12.250Z"}
+{"to":"127.0.0.1","action":"getHint","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getHint\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:12.897Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:15.299Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:16.616Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:19.656Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:20.980Z"}
+{"to":"127.0.0.1","action":"submitGuess","params":"{\"username\":\"Sub\",\"guess\":\"grass\",\"password\":\"g\",\"action\":\"submitGuess\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:23.008Z"}
+{"to":"127.0.0.1","action":"askIfTurn","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"askIfTurn\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:24.023Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Sub\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:24.322Z"}
+{"to":"127.0.0.1","action":"getGameSummary","params":"{\"username\":\"Jay\",\"password\":\"g\",\"action\":\"getGameSummary\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2016-06-15T20:47:25.323Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing...","timestamp":"2016-06-15T20:47:33.980Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"2016-06-15T20:47:33.985Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"2016-06-15T20:47:33.989Z"}
+{"level":"info","message":"actionhero member 10.252.64.194 has left the cluster","timestamp":"2016-06-15T20:47:33.992Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2016-06-15T20:47:33.992Z"}

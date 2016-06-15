@@ -29,7 +29,9 @@ exports.createPlayer = {
 
   run: function(api, data, next) {
     let error = null;
-    api.RegisteredPlayers.push(api.Player.constructPlayer(data.params.username, data.params.password));
+    var newPlayer = api.Player.constructPlayer(data.params.username, data.params.password);
+    api.RegisteredPlayers.push(newPlayer);
+    data.response.playerId = newPlayer.id;
     // your logic here
     next(error);
   }
@@ -48,6 +50,7 @@ exports.deletePlayer = {
   inputs: commonInputs,
 
   run: function(api, data, next) {
+    //TODO: Add delete
     data.response.success = true;
     next();
   }
@@ -73,4 +76,23 @@ exports.userList = {
     next(error);
   }
 };
+
+exports.userValid = {
+  name:                   'userValid',
+  description:            'I check to make sure credentials are valid',
+  blockedConnectionTypes: [],
+  outputExample:          {},
+  matchExtensionMimeType: false,
+  version:                1.0,
+  toDocument:             true,
+  middleware:             ['authPlayer'],
+
+  inputs: commonInputs,
+
+  run: function(api, data, next) {
+    data.response.validUser = true;
+    data.response.playerId = data.response.userParam.id
+    next();
+  }
+}
 
